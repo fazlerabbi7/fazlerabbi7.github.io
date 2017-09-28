@@ -1,0 +1,258 @@
+
+/*---------------------- Mideum layout css  ------------------*/
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+    
+    .main_menu li a {
+        padding: 15px 8px;
+    }
+    .cocial-links a {
+        height: 27px;
+        line-height: 25px;
+        width: 27px;
+    }
+    .newsleter-text h1 {
+      font-size: 28px;
+    }
+    .portfolio .owl-nav div{
+        bottom: 70%
+    }
+
+    
+}
+/*------------- tablet layout css ----------------*/
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    
+    .header.newHedeclass{
+        display: none
+    }
+    .main_menu li a:before{
+        display: none
+    } 
+.logo.text-left {
+    text-align: center;
+}
+.main_menu li a {
+}
+.nav.main_menu.text-right {
+    text-align: center;
+}
+.nav.main_menu li a {
+    padding: 18px 8px;
+}
+.cocial-links.text-right {
+    margin-top: 0;
+    text-align: center;
+}
+.banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.c_btn {
+  padding: 9px 16px
+}
+.tab_main li a {
+    padding: 8px 29px;
+}
+.s-tem {
+}
+.s-tem {
+    margin-bottom: 30px;
+}
+.v-content h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.v-content .single-chose {
+    padding: 15px;
+}
+.single-chose h3 {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.portfolio .owl-nav div {
+    bottom: 75%;
+}
+.s-blog h3 a {
+    font-size: 15px;
+}
+.blog-img-hover a i {
+    padding: 10px;
+}
+.single-chose {
+    box-sizing: border-box;
+    padding: 10px;
+}
+.newsleter-text h1 {
+    font-size: 28px;
+}
+    .all-video{
+        position: static;
+        width: 100%;
+        margin-bottom: 30px
+    }
+     #m-about img{
+        margin-bottom: 30px
+    }
+
+    
+    
+    
+
+    
+}
+/*------------- Smart mobila layot css -----------*/
+@media only screen and (max-width: 767px) {
+        .header.newHedeclass{
+        display: none
+    }
+    .logo.text-left {
+    text-align: center;
+    }
+    .main_menu li a {
+    }
+    .nav.main_menu.text-right {
+        text-align: center;
+    }
+    .nav.main_menu li a {
+        padding: 18px 8px;
+    }
+    .cocial-links.text-right {
+        margin-top: 0;
+        text-align: center;
+    }
+    .all-video{
+        position: static;
+        width: 100%;
+        margin-bottom: 30px
+    }
+    #m-about img{
+        margin-bottom: 30px
+    }
+    .s-tem{
+        margin-bottom: 30px
+    }
+    .static-img{
+        height: 400px;
+        position: static;
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .gmap{
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .single-chose{
+        margin-bottom: 30px
+    }
+    .mobile_menu_wrap{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .main_menu{
+        display: none;
+    }
+    .logo.text-left {
+        text-align: left;
+    }
+    
+    .header{
+        position: relative;
+        z-index: 9
+    }
+    .mobile_menu_wrap {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .slicknav_nav {
+        background: #333 none repeat scroll 0 0;
+        width: 180px
+    }
+    .tab_main a{
+        padding: 3px 26px;
+        font-size: 14px
+    }
+    .single-service i{
+        font-size: 30px
+    }
+    .section-title h1{
+        font-size: 22px
+    }
+    .section-padding{
+        padding: 50px 0px;
+    }
+    .slicknav_btn .slicknav_icon span {
+        background: green none repeat scroll 0 0;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .portfolio .owl-nav div {
+        bottom: 79%;
+    }
+    .porfolio-area .owl-nav div {
+        bottom: 70%;
+    }
+    .testimonials .owl-nav {
+      bottom: 0px;
+      left: 0px;
+    }
+    .logo{
+        display: inline-block
+    }
+    .logo h2{
+        font-size: 24px
+    }
+    .slicknav_menu{
+        padding: 0px
+    }
+    .c_btn{
+        padding: 9px 7px;
+        border-radius: 7px
+    }
+    .news-form{
+        margin-top: 0px
+    }
+    .info-list {
+      margin-bottom: 40px;
+    }
+    .news-form {
+      margin-top: 30px;
+    }
+    .comments-img{
+        position: static;
+    }
+    .blog-meta{
+        margin-top: 30px;
+        margin-left: 0px
+    }
+    .blog-meta::before {
+      left: 31px;
+      top: -10px;
+      transform: rotate(134deg);
+    }
+    
+    
+    
+}
+/*---------- Wide Mobile layout css ----------*/
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+    .all-single-chosse{
+        margin-left: -15px
+    }
+    .all-single-chosse .single-chose {
+      float: left;
+      margin-bottom: 0;
+      margin-left: 15px;
+      width: 46.7%;
+    }
+    
+    
+}
